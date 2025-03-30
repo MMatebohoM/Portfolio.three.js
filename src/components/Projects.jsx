@@ -8,8 +8,14 @@ import { useEffect, useRef } from "react";
 
 export const projects = [
   {
+    title: "Mediflow ",
+    url: "https://medi-flow.web.app/",
+    image: "projects/health_app_pic.jpg",
+    description: "Mobile app for patient login, appointment setting and reviews and admin maintenance",
+  },
+  {
     title: "Intelli-Ed App",
-    url: "https://r3f-wawatmos-final.vercel.app/",
+    url: "",
     image: "projects/study_app_pic.jpg",
     description: "Mobile all-in-one study app for students",
   },
@@ -19,21 +25,16 @@ export const projects = [
     image: "projects/study_web_app_pic.png",
     description: "Admin web app for managing study app users",
   },
-  {
-    title: "Mediflow ",
-    url: "https://medi-flow.web.app/",
-    image: "projects/health_app_pic.jpg",
-    description: "Mobile app for patient login, appointment setting and reviews and admin maintenance",
-  },
+ 
   {
     title: "Kanagame",
-    url: "https://www.youtube.com/watch?v=zwNF1-lsia8",
+    url: "",
     image: "projects/kanagame.jpg",
     description: "Use React Three Fiber to create a 3D game",
   },
   {
     title: "Loader",
-    url: "https://www.youtube.com/watch?v=L12wIvuZTOY",
+    url: "",
     image: "projects/loader.jpg",
     description: "Create a loading screen for your r3f projects",
   },
