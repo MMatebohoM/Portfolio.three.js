@@ -114,7 +114,7 @@ const skills = [
   },
   {
     title: "Linux",
-    level: 40,
+    level: 85,
   },
   {
     title: "Python",
@@ -130,7 +130,7 @@ const skills = [
   },
   {
     title: "Flutter( Ios, Android)",
-    level: 60,
+    level: 70,
   },
   
 ];
@@ -140,8 +140,8 @@ const languages = [
     level: 100,
   },
   {
-    title: "Chinese",
-    level: 50,
+    title: "French A1",
+    level: 65,
   },
   {
     title: "Afrikaans",
