@@ -8,16 +8,23 @@ import { useEffect, useRef } from "react";
 
 export const projects = [
   {
+    title: "Intelli-Ed App",
+    url: "",
+    image: "projects/study_app_pic.jpg",
+    description: "Mobile all-in-one study app for students",
+  },
+  {
     title: "Mediflow ",
     url: "https://medi-flow.web.app/",
     image: "projects/health_app_pic.jpg",
     description: "Mobile app for patient login, appointment setting and reviews and admin maintenance",
   },
+  
   {
-    title: "Intelli-Ed App",
-    url: "",
-    image: "projects/study_app_pic.jpg",
-    description: "Mobile all-in-one study app for students",
+    title: "Certificates",
+    url: "https://padlet.com/matebohoit/student-portfolio-abd7ekmnyxsso3o9",
+    image: "projects/Certificates.png",
+    description: "Additional certificates in robotics and AI",
   },
   {
     title: "Intelli_Ed Web App",
@@ -26,18 +33,8 @@ export const projects = [
     description: "Admin web app for managing study app users",
   },
  
-  {
-    title: "Kanagame",
-    url: "",
-    image: "projects/kanagame.jpg",
-    description: "Use React Three Fiber to create a 3D game",
-  },
-  {
-    title: "Loader",
-    url: "",
-    image: "projects/loader.jpg",
-    description: "Create a loading screen for your r3f projects",
-  },
+  
+  
 ];
 
 const Project = (props) => {
